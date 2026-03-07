@@ -30,6 +30,13 @@ padding:15px 40px;
 display:flex;
 justify-content:space-between;
 align-items:center;
+position:relative;
+}
+
+.nav-left{
+display:flex;
+align-items:center;
+gap:15px;
 }
 
 .logo{
@@ -37,15 +44,49 @@ font-size:22px;
 font-weight:bold;
 }
 
+.menu-icon{
+font-size:26px;
+cursor:pointer;
+}
+
+.discord-btn{
+background:#5865F2;
+padding:8px 15px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.donate-btn{
+background:#4caf50;
+padding:8px 15px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.menu{
+position:absolute;
+top:60px;
+left:40px;
+background:#141c26;
+border-radius:8px;
+display:none;
+flex-direction:column;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
 .menu a{
 color:white;
 text-decoration:none;
-margin-left:25px;
-font-size:15px;
+padding:12px 20px;
+display:block;
 }
 
 .menu a:hover{
-color:#3a8bfd;
+background:#1f2b3a;
 }
 
 /* HERO */
