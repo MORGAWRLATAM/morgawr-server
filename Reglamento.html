@@ -84,10 +84,23 @@ padding:0 18px;
 }
 
 .rule-content ul{
-padding:15px 25px;
+list-style:none;
+padding:10px 30px;
 margin:0;
-line-height:1.7;
-list-style-position: inside;
+}
+
+.rule-content li{
+position:relative;
+padding-left:20px;
+margin-bottom:10px;
+}
+
+.rule-content li::before{
+content:"•";
+position:absolute;
+left:0;
+color:#4caf50;
+font-size:18px;
 }
 
 li{
